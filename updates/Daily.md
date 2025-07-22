@@ -29,3 +29,13 @@ Print current stats
 Simple stat math
 
 # Dungeon of Doom - Day 2
+Today will implement some logics
+
+📅 Day 2 – Variables, Data Types & Player Stats
+
+🎯 Goals
+Understand Lua's basic data types: strings, numbers, booleans, tables
+
+Create and update player stats
+
+Display stats dynamically
