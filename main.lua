@@ -18,17 +18,25 @@ function welcome()
 	print("Greetings, " .. player.name .. "! Your journey begins now...\n")
 end
 
--- New Function: Sho Player Stats
+-- New Function: Show Player Stats
 function showStats()
 	print("\n📊 Player Stats:")
 	print("Name: " .. player.name)
 	print("HP: " .. player.hp)
 	print("Gold: " .. player.gold)
 	print("Inventory: ")
+
+	-- Challenge Solution
 	for i, item in ipairs(player.inventory) do
+		table.insert(player.inventory, "Magic Sword")
+		player.gold = player.gold + 50
 		print("- " .. item)
 	end
 end
+
+-- Challenge
+table.insert(player.inventory, "Magic Sword")
+player.gold = player.gold + 50
 
 -- Entry point
 function main()
