@@ -3,46 +3,46 @@
 
 -- Game State
 player = {
-	name = "",
-	hp = 100,
-	gold = 0,
-	inventory = { "Health Potion" },
-	alive = true,
+    name = "",
+    hp = 100,
+    gold = 0,
+    inventory = { "Health Potion" },
+    alive = true,
 }
 
 -- Welcome the player
 function welcome()
-	print("🌟 Welcome to the Dungeon of Doom! 🌟")
-	io.write("Enter your name, brave adventurer: ")
-	player.name = io.read()
-	print("Greetings, " .. player.name .. "! Your journey begins now...\n")
+    print("🌟 Welcome to the Dungeon of Doom! 🌟")
+    io.write("Enter your name, brave adventurer: ")
+    player.name = io.read()
+    print("Greetings, " .. player.name .. "! Your journey begins now...\n")
 end
 
--- New Function: Show Player Stats
+-- Show player stats
 function showStats()
-	print("\n📊 Player Stats:")
-	print("Name: " .. player.name)
-	print("HP: " .. player.hp)
-	print("Gold: " .. player.gold)
-	print("Inventory: ")
-
-	-- Challenge Solution
-	for i, item in ipairs(player.inventory) do
-		table.insert(player.inventory, "Magic Sword")
-		player.gold = player.gold + 50
-		print("- " .. item)
-	end
+    print("\n📊 Player Stats:")
+    print("Name: " .. player.name)
+    print("HP: " .. player.hp)
+    print("Gold: " .. player.gold)
+    print("Inventory:")
+    for i, item in ipairs(player.inventory) do
+        print("- " .. item)
+    end
 end
-
--- Challenge
-table.insert(player.inventory, "Magic Sword")
-player.gold = player.gold + 50
 
 -- Entry point
 function main()
-	welcome()
-	showStats()
-	-- Game loop will go here
+    welcome()
+
+    -- 🎁 Add extra items and gold for the challenge
+    table.insert(player.inventory, "Magic Sword")
+    player.gold = player.gold + 50
+
+    -- 🧾 Show updated player stats
+    showStats()
+
+    -- Game loop will go here in the next lessons
 end
 
+-- Start the game
 main()
