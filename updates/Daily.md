@@ -40,7 +40,7 @@ Create and update player stats
 
 Display stats dynamically
 
-📅 Day 3 – Conditionals & Room Choices
+# 📅 Day 3 – Conditionals & Room Choices
 🎯 Goals
 
 Learn how to use if, elseif, and else
