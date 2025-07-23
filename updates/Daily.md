@@ -39,3 +39,6 @@ Understand Lua's basic data types: strings, numbers, booleans, tables
 Create and update player stats
 
 Display stats dynamically
+
+
+
