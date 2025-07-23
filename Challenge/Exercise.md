@@ -52,13 +52,22 @@ Gold: 50
 
 
 
-## Next Steps
+## In Day 3, we'll explore:
 
-In Day 3, we'll explore:
 
 - Player movement choices (left/right)
 
 - Conditional logic with if/else
 
 - Room encounters and game flow
+
+  ```
+  if condition then
+    -- do something
+elseif another_condition then
+    -- do something else
+else
+    -- fallback
+end
+```
 
