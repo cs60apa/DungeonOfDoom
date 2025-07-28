@@ -11,6 +11,7 @@ Welcome to **Dungeon of Doom**, a text-based adventure game written in Lua! Emba
 - Simple, intuitive controls
 - Written in pure Lua for easy modification
 
+
 ## How to Play
 
 1. **Run the Game:**
@@ -28,7 +29,7 @@ Welcome to **Dungeon of Doom**, a text-based adventure game written in Lua! Emba
 
 ## Requirements
 
-- Lua 5.1 or higher
+- Any Lua Version can work: 
 
 ## Contributing
 

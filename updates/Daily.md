@@ -41,4 +41,19 @@ Create and update player stats
 Display stats dynamically
 
 
+📅 Day 4 – Loops & Random Enemy Encounters
+
+🎯 Goals
+
+Learn Lua loops: while, for, and repeat
+
+Introduce random enemies
+
+Build a simple combat loop
+
+Use conditions to end the loop (player dies or escapes)
+
+🧠 What You'll Learn
+
+🔁 Loops in Lua:
 
