@@ -40,6 +40,15 @@ Create and update player stats
 
 Display stats dynamically
 
+# 📅 Day 3 – Conditionals & Room Choices
+🎯 Goals
+
+Learn how to use if, elseif, and else
+
+Take input from the user to make decisions
+
+Create a simple branching path (e.g. left or right)
+
 
 📅 Day 4 – Loops & Random Enemy Encounters
 
